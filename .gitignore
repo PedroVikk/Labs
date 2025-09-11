@@ -1,0 +1,11 @@
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar diretórios de build do IntelliJ/IDEA
+/out/
+/.idea/
+/*.iml
+
+# Ignorar diretórios de build comuns
+/bin/
+/target/
