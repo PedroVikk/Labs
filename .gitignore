@@ -9,3 +9,24 @@
 # Ignorar diretórios de build comuns
 /bin/
 /target/
+dist/
+node_modules/
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+$RECYCLE.BIN/
