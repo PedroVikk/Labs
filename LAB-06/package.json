@@ -1,0 +1,19 @@
+{
+  "name": "sistema-reservas-hotel",
+  "version": "1.0.0",
+  "description": "Sistema de reservas de hotel em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["hotel", "reservas", "typescript", "oop"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
