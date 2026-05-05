@@ -1,0 +1,23 @@
+{
+  "name": "sistema-gestao-tarefas",
+  "version": "1.0.0",
+  "description": "Sistema de gestão de tarefas desenvolvido em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "gestao",
+    "tarefas",
+    "projetos"
+  ],
+  "author": "Pedro Victor",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
